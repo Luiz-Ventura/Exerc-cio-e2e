@@ -11,11 +11,11 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
       Preenchendo todas opções no checkout
       E validando minha compra ao final */
 
-  beforeEach(() => {
+    beforeEach(() => {
     produtosPage.visitarUrl()
-  });
+    });
 
-  it('deve adicionar vários produtos ao carrinho usando massa de dados', () => {
+    it('deve adicionar vários produtos ao carrinho usando massa de dados', () => {
     cy.fixture('produtos').then(dados => {
       // Aqui você pode escolher quais produtos usar
       const indices = [1, 2, 3, 4, 5];
@@ -45,9 +45,6 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
         cy.get('#order_comments').type(faker.company.buzzPhrase())
         cy.get('#terms').click()
         cy.get('#place_order').click()
-
-
-
     });
-  });
-});
+    });
+    });
