@@ -1,0 +1,49 @@
+[
+    {
+        "nomeProduto": "Abominable Hoodie",
+        "tamanho":"M",
+        "cor":"Red",
+        "quantidade": 1
+
+    },
+
+    {
+        "nomeProduto": "Ajax Full-Zip Sweatshirt",
+        "tamanho":"L",
+        "cor":"Blue",
+        "quantidade": 5
+
+    },
+
+    {
+        "nomeProduto": "Aero Daily Fitness Tee",
+        "tamanho":"XL",
+        "cor":"Yellow",
+        "quantidade": 4
+
+    },
+
+    {
+        "nomeProduto": "Geo Insulated Jogging Pant",
+        "tamanho":"34",
+        "cor":"Green",
+        "quantidade": 3
+
+    },
+
+    {
+        "nomeProduto": "Atlas Fitness Tank",
+        "tamanho":"XS",
+        "cor":"Blue",
+        "quantidade": 2
+
+    },
+
+    {
+        "nomeProduto": "Beaumont Summit Kit",
+        "tamanho":"XL", 
+        "cor":"Orange",
+        "quantidade": 4
+
+    }
+]
